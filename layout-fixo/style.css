@@ -63,9 +63,12 @@ article>header{
     box-sizing: border-box;
 }
 button, input{
-    margin:10px 5px;
+    margin:10px 0;
     border: none;
     height: 25px;
+}
+input{
+    margin: 0 0 0 10px;
 }
 input{
     width: 300px;
