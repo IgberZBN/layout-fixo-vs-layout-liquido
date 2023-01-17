@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 990px;
+    margin: auto;
+    box-sizing: content-box;
+}
+#container>header{
+    text-align: center;
+    background-color: #AAA4AA;
+    padding: 10px;
+}
+nav{
+    float: left;
+    background-color: #E1DEE3;
+    width: 165px;
+    text-align: center;
+}
+nav>ul{
+    list-style: none;
+}
+nav li{
+    padding: 10px;
+}
+nav li:not(:last-child){
+    border-bottom: 2px #AAA4AA solid;
+}
+li:hover{
+    background-color: #AAA4AA;
+}
+li>a{
+    color: black;
+    text-decoration: none;
+}
+#content{
+    box-sizing: border-box;
+    float: right;
+    width: 825px;
+}
+#conteudoPrincipal{
+    float: left;
+    width: 412.5px;
+}
+#conteudoPrincipal>header{
+    text-align: center;
+    margin-top: 5px;
+}
+#conteudoPrincipal article{
+    margin: 10px;
+    background: #fff;
+    padding: 7px;
+}
+article>header{
+    margin: 5px 0;
+}
+#conteudoSecundario{
+    width: 412.5px;
+    background: #E1DEE3;
+    float: left;
+    box-sizing: border-box;
+}
+button, input{
+    margin:10px 5px;
+    border: none;
+    height: 25px;
+}
+input{
+    width: 300px;
+}
+#tituloSecundario{
+    background-color: #AAA4AA;
+    text-align: center;
+    padding: 5px;
+}
+aside article{
+    margin:10px 5px;
+}
+footer{
+    clear: both;
+    background-color: #AAA4AA;
+    padding: 10px;
+    text-align: center;
+}
