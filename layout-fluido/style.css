@@ -61,6 +61,7 @@ li>a{
     width: 50%;
 }
 #conteudoPrincipal>header{
+    font-size: clamp(0.7em, 1.8vw, 1em);
     text-align: center;
     margin-top: 5px;
 }
@@ -82,9 +83,11 @@ article>header{
 */
 
 button, input{
+    display: inline-block;
     margin:10px 0;
     border: none;
     height: 25px;
+    vertical-align: middle;
 }
 input{
     margin: 0 0 0 10px;
@@ -94,6 +97,7 @@ input{
 button{
     width: 14.370909091%;
     padding: 0.001679515%;
+    font-size:  clamp(8px, 1vw ,13.333px);
 }
 
 /*
@@ -107,6 +111,7 @@ aside article{
     margin:10px 1.212121212%;
 }
 
+
 /*
 */
 
@@ -114,4 +119,25 @@ footer{
     clear: both;
     padding: 10px;
     text-align: center;
+}
+
+@media (max-width: 768px){
+    button{
+        font-size: 0;
+    }
+}
+
+@media (max-width: 532px){
+    nav{
+        display: none;
+    }
+    #content{
+        width: 100%;
+    }
+}
+
+@media (max-width: 448px){
+    form{
+        display: none;
+    }
 }
