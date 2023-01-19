@@ -88,11 +88,11 @@ button, input{
 }
 input{
     margin: 0 0 0 10px;
-}
-input{
     width: 72.727272727%;
 }
+
 button{
+    width: 14.370909091%;
     padding: 0.001679515%;
 }
 
