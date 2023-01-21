@@ -13,7 +13,8 @@
 */
 
 #container{
-    width: 90%;
+    width: min(90%, 1280px);
+    min-width: 300px;
     margin: auto;
     box-sizing: content-box;
 }
@@ -132,6 +133,9 @@ footer{
         display: none;
     }
     #content{
+        width: 100%;
+    }
+    #container{
         width: 100%;
     }
 }
