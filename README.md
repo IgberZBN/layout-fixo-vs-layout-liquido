@@ -47,3 +47,8 @@
 >  max-width: 400px;
 >}
 >```
+
+
+
+<img alt="Gif de demonstração do layout fixo" href="./img/layout-fixo.gif">
+<img alt="Gif de demonstração do liquido fixo" href="./img/layout-liquido.gif">
