@@ -47,8 +47,13 @@
 >  max-width: 400px;
 >}
 >```
+>Dessa forma o elemento não poderá ter largura menor que 200px ou maior que 400px
 
 
+## Layout-fixo
 
-<img alt="Gif de demonstração do layout fixo" href="./img/layout-fixo.gif">
-<img alt="Gif de demonstração do liquido fixo" href="./img/layout-liquido.gif">
+![](https://github.com/IgberZBN/layout-fixo-vs-layout-liquido/blob/main/img/layout-fixo.gif)
+
+## Layout-Fluido
+
+![](https://github.com/IgberZBN/layout-fixo-vs-layout-liquido/blob/main/img/layout-liquido.gif)
